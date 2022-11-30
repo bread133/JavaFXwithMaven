@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="389.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.javafx.AddController">
+   <children>
+      <Button layoutX="233.0" layoutY="14.0" mnemonicParsing="false" onAction="#AddShapeOnCanvas" prefHeight="26.0" prefWidth="177.0" text="Добавить" />
+      <Button layoutX="284.0" layoutY="50.0" mnemonicParsing="false" onAction="#Exit" prefHeight="26.0" prefWidth="126.0" text="Отмена" />
+      <ChoiceBox fx:id="ListOfFigure" layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="200.0" />
+      <ChoiceBox fx:id="ValOfVers" layoutX="158.0" layoutY="50.0" prefHeight="26.0" prefWidth="55.0" />
+      <TextField fx:id="y1" layoutX="148.0" layoutY="87.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField layoutX="49.0" layoutY="87.0" prefHeight="26.0" prefWidth="40.0" fx:id="x1" />
+      <TextField layoutX="49.0" layoutY="123.0" prefHeight="26.0" prefWidth="40.0" fx:id="x2" />
+      <TextField fx:id="y2" layoutX="148.0" layoutY="123.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField fx:id="y3" layoutX="148.0" layoutY="159.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField layoutX="49.0" layoutY="159.0" prefHeight="26.0" prefWidth="40.0" fx:id="x3" />
+      <TextField layoutX="49.0" layoutY="195.0" prefHeight="26.0" prefWidth="40.0" fx:id="x4" />
+      <TextField fx:id="y4" layoutX="148.0" layoutY="195.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField fx:id="y5" layoutX="148.0" layoutY="231.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField layoutX="49.0" layoutY="231.0" prefHeight="26.0" prefWidth="40.0" fx:id="x5" />
+      <TextField layoutX="49.0" layoutY="267.0" prefHeight="26.0" prefWidth="40.0" fx:id="x6" />
+      <TextField fx:id="y6" layoutX="148.0" layoutY="267.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField fx:id="y7" layoutX="148.0" layoutY="303.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField layoutX="49.0" layoutY="303.0" prefHeight="26.0" prefWidth="40.0" fx:id="x7" />
+      <TextField layoutX="49.0" layoutY="339.0" prefHeight="26.0" prefWidth="40.0" fx:id="x8" />
+      <TextField fx:id="y8" layoutX="148.0" layoutY="339.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField fx:id="y9" layoutX="371.0" layoutY="87.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField layoutX="272.0" layoutY="87.0" prefHeight="26.0" prefWidth="40.0" fx:id="x9" />
+      <TextField layoutX="272.0" layoutY="123.0" prefHeight="26.0" prefWidth="40.0" fx:id="x10" />
+      <TextField fx:id="y10" layoutX="371.0" layoutY="123.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField fx:id="y11" layoutX="371.0" layoutY="159.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField layoutX="272.0" layoutY="159.0" prefHeight="26.0" prefWidth="40.0" fx:id="x11" />
+      <TextField layoutX="272.0" layoutY="195.0" prefHeight="26.0" prefWidth="40.0" fx:id="x12" />
+      <TextField fx:id="y12" layoutX="371.0" layoutY="195.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField fx:id="y13" layoutX="371.0" layoutY="231.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField layoutX="272.0" layoutY="231.0" prefHeight="26.0" prefWidth="40.0" fx:id="x13" />
+      <TextField layoutX="272.0" layoutY="267.0" prefHeight="26.0" prefWidth="40.0" fx:id="x14" />
+      <TextField fx:id="y14" layoutX="371.0" layoutY="267.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField fx:id="y15" layoutX="371.0" layoutY="303.0" prefHeight="26.0" prefWidth="40.0" />
+      <TextField layoutX="272.0" layoutY="303.0" prefHeight="26.0" prefWidth="40.0" fx:id="x15" />
+      <TextField layoutX="272.0" layoutY="339.0" prefHeight="26.0" prefWidth="40.0" fx:id="x16" />
+      <TextField fx:id="y16" layoutX="371.0" layoutY="339.0" prefHeight="26.0" prefWidth="40.0" />
+      <Label fx:id="labelX2" layoutX="28.0" layoutY="127.0" text="x2" />
+      <Label fx:id="labelX1" layoutX="28.0" layoutY="91.0" text="x1" />
+      <Label fx:id="labelX3" layoutX="28.0" layoutY="163.0" text="x3" />
+      <Label fx:id="labelX4" layoutX="28.0" layoutY="199.0" text="x4" />
+      <Label fx:id="labelX5" layoutX="28.0" layoutY="235.0" text="x5" />
+      <Label fx:id="labelX6" layoutX="28.0" layoutY="271.0" text="x6" />
+      <Label fx:id="labelX7" layoutX="28.0" layoutY="307.0" text="x7" />
+      <Label fx:id="labelX8" layoutX="28.0" layoutY="343.0" text="x8" />
+      <Label fx:id="labelX9" layoutX="244.0" layoutY="92.0" text="x9" />
+      <Label fx:id="labelX10" layoutX="240.0" layoutY="127.0" text="x10" />
+      <Label fx:id="labelX11" layoutX="240.0" layoutY="163.0" text="x11" />
+      <Label fx:id="labelX12" layoutX="240.0" layoutY="199.0" text="x12" />
+      <Label fx:id="labelX13" layoutX="240.0" layoutY="235.0" text="x13" />
+      <Label fx:id="labelX14" layoutX="240.0" layoutY="271.0" text="x14" />
+      <Label fx:id="labelX15" layoutX="240.0" layoutY="307.0" text="x15" />
+      <Label fx:id="labelX16" layoutX="238.0" layoutY="343.0" prefHeight="18.0" prefWidth="24.0" text="x16" />
+      <Label fx:id="labelY1" layoutX="126.0" layoutY="91.0" text="y1" />
+      <Label fx:id="labelY2" layoutX="126.0" layoutY="127.0" text="y2" />
+      <Label fx:id="labelY3" layoutX="126.0" layoutY="163.0" text="y3" />
+      <Label fx:id="labelY4" layoutX="126.0" layoutY="199.0" text="y4" />
+      <Label fx:id="labelY5" layoutX="126.0" layoutY="235.0" text="y5" />
+      <Label fx:id="labelY6" layoutX="126.0" layoutY="271.0" text="y6" />
+      <Label fx:id="labelY7" layoutX="126.0" layoutY="307.0" text="y7" />
+      <Label fx:id="labelY8" layoutX="126.0" layoutY="343.0" text="y8" />
+      <Label fx:id="labelY9" layoutX="346.0" layoutY="92.0" text="y9" />
+      <Label fx:id="labelY10" layoutX="346.0" layoutY="127.0" text="y10" />
+      <Label fx:id="labelY11" layoutX="346.0" layoutY="163.0" text="y11" />
+      <Label fx:id="labelY12" layoutX="346.0" layoutY="199.0" text="y12" />
+      <Label fx:id="labelY13" layoutX="346.0" layoutY="235.0" text="y13" />
+      <Label fx:id="labelY14" layoutX="346.0" layoutY="271.0" text="y14" />
+      <Label fx:id="labelY15" layoutX="346.0" layoutY="307.0" text="y15" />
+      <Label fx:id="labelY16" layoutX="346.0" layoutY="343.0" text="y16" />
+      <Label fx:id="labelR" layoutX="127.0" layoutY="127.0" text="r" />
+   </children>
+</AnchorPane>

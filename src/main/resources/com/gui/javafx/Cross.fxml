@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="307.0" prefWidth="374.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.javafx.CrossController">
+   <children>
+      <ChoiceBox fx:id="listOfFigures" layoutX="14.0" layoutY="15.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="listOfShapes1" layoutX="14.0" layoutY="51.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="listOfShapes2" layoutX="14.0" layoutY="101.0" prefWidth="150.0" />
+      <Button layoutX="209.0" layoutY="14.0" mnemonicParsing="false" onAction="#Cross" prefHeight="26.0" prefWidth="150.0" text="Вычислить" />
+      <Button layoutX="209.0" layoutY="51.0" mnemonicParsing="false" onAction="#Exit" prefHeight="26.0" prefWidth="150.0" text="Отмена" />
+   </children>
+</AnchorPane>

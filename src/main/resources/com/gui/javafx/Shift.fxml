@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="306.0" prefWidth="378.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.javafx.ShiftController">
+   <children>
+      <ChoiceBox fx:id="listOfShapes" layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="194.0" />
+      <Button layoutX="229.0" layoutY="14.0" mnemonicParsing="false" onAction="#Shift" prefHeight="26.0" prefWidth="128.0" text="Переместить" />
+      <Button fx:id="exit" layoutX="229.0" layoutY="51.0" mnemonicParsing="false" onAction="#Exit" prefHeight="26.0" prefWidth="128.0" text="Отмена" />
+      <ChoiceBox fx:id="listOfMove" layoutX="14.0" layoutY="51.0" prefHeight="26.0" prefWidth="194.0" />
+      <TextField fx:id="y" layoutX="162.0" layoutY="88.0" prefHeight="26.0" prefWidth="46.0" />
+      <TextField layoutX="81.0" layoutY="88.0" prefHeight="26.0" prefWidth="46.0" fx:id="x" />
+      <Label fx:id="labelX" layoutX="65.0" layoutY="92.0" prefHeight="18.0" prefWidth="0.0" text="x" />
+      <Label fx:id="labelY" layoutX="147.0" layoutY="92.0" prefHeight="18.0" prefWidth="0.0" text="y" />
+      <Label fx:id="labelPhi" layoutX="71.0" layoutY="92.0" text="Угол поворота" />
+      <ChoiceBox fx:id="listOfSymmetry" layoutX="154.0" layoutY="88.0" prefHeight="26.0" prefWidth="54.0" />
+      <Label fx:id="symmetry" layoutX="61.0" layoutY="92.0" text="Ось симметрии" />
+   </children>
+</AnchorPane>

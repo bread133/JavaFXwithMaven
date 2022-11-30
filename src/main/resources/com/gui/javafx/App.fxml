@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="698.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.javafx.AppController">
+   <children>
+      <Button layoutX="539.0" layoutY="60.0" mnemonicParsing="false" onAction="#AddShape" text="Добавить фигуру" />
+      <Button layoutX="542.0" layoutY="96.0" mnemonicParsing="false" onAction="#SaveFile" text="Сохранить файл" />
+      <Button layoutX="545.0" layoutY="132.0" mnemonicParsing="false" onAction="#DownloadFile" text="Загрузить файл" />
+      <Button layoutX="519.0" layoutY="168.0" mnemonicParsing="false" onAction="#SaveImage" text="Сохранить изображение" />
+      <Button layoutX="530.0" layoutY="204.0" mnemonicParsing="false" onAction="#ShiftShape" text="Переместить фигуру" />
+      <Button layoutX="544.0" layoutY="240.0" mnemonicParsing="false" onAction="#DeleteShape" text="Удалить фигуру" />
+      <Button layoutX="561.0" layoutY="276.0" mnemonicParsing="false" onAction="#Clear" text="Очистить" />
+      <Button layoutX="539.0" layoutY="312.0" mnemonicParsing="false" onAction="#SquareShape" text="Площадь фигуры" />
+      <Button layoutX="537.0" layoutY="348.0" mnemonicParsing="false" onAction="#LengthShape" text="Периметр фигуры" />
+      <Button layoutX="532.0" layoutY="384.0" mnemonicParsing="false" onAction="#CrossShape" text="Пересечение фигур" />
+      <Canvas fx:id="canvas" height="460.0" layoutX="16.0" layoutY="16.0" width="420.0" />
+      <TextField fx:id="view" layoutX="513.0" layoutY="420.0" prefHeight="26.0" prefWidth="163.0" />
+      <Line endX="210.0" endY="460.0" layoutX="16.0" layoutY="16.0" startX="210.0" stroke="#00000074" strokeWidth="1.5" />
+      <Line endX="420.0" endY="230.0" layoutX="16.0" layoutY="16.0" startY="230.0" stroke="#00000074" strokeWidth="1.5" />
+   </children>
+</AnchorPane>
